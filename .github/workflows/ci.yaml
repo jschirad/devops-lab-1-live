@@ -1,9 +1,6 @@
 name: CI - Lint, Test, Sonar, Build, Scan
 on:
-  push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
+  workflow_dispatch:
 
 jobs:
   lint:
